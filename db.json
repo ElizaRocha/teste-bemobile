@@ -1,0 +1,14 @@
+{
+    "posts": [
+      { "id": 1, 
+      "name": "Eliza", 
+      "cargo": "Dev front End",
+      "telefone": "31998522378",
+      "data": "10/10/2022" }
+
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }
