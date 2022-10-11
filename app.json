@@ -1,6 +1,7 @@
 {
   "name": "beMobile",
   "displayName": "beMobile",
+  "fundo": "./assets/fundo.png",
   "expo": {
     "name": "beMobile",
     "slug": "beMobile",
