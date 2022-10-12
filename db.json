@@ -1,15 +1,34 @@
+
+
 {
     "posts": [
-      { "id": 1, 
+      {   
+
+      "id": 1, 
       "name": "Eliza", 
       "cargo": "Dev front End",
       "telefone": "31998522378",
-      "data": "10/10/2022" },
-      { "id": 2, 
+      "data": "10-10-2022",
+      "foto": "require('./assets/user1.png')"
+      },
+
+      { 
+      "id": 2, 
       "name": "Raul", 
       "cargo": "Dev back End",
       "telefone": "31998522478",
-      "data": "10/10/2021" }
+      "data": "10-10-2021",
+      "foto": "require('./assets/user1.png')"
+      },
+
+      { 
+      "id": 3, 
+      "name": "teste", 
+      "cargo": "Dev cdkncsk End",
+      "telefone": "31998522478",
+      "data": "10-10-2021",
+      "foto": "require('./assets/user1.png')"
+      }
 
     ],
     "comments": [
