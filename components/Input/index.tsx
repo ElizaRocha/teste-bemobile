@@ -4,9 +4,9 @@ import Table from "../Table";
 
 
 function Input(props: any){
+  
     const [search, setSearch] = useState("")
     const [filteredData, setFilteredData] = useState(props.data)
-
 
     const searchFilter = (text: any) => {
         if (text) {
@@ -24,8 +24,6 @@ function Input(props: any){
                 }
               }
           });
-
-          console.log("new", newData)
           
           setFilteredData(newData);
           setSearch(text);
