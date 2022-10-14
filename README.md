@@ -6,7 +6,7 @@ O objetivo deste projeto é listar as informações (foto, nome, cargo, data de 
 simulada escrita em json-server. Também deve conter um botão de show/hide para mostrar e ocultar as informações, assim como na imagem a seguir.
 O projeto foi desenvolvido em React Native, utilizando a plataforma Expo para auxilio nos testes durante o desenvolvimento.
 
-<img style="width: 300px" src='https://user-images.githubusercontent.com/75266128/195743723-d439d751-67d6-4d16-a8a5-3e669614c77a.jpg'/>
+<img style="width: 300px" src='https://user-images.githubusercontent.com/75266128/195747010-7960f7d6-e690-4fad-a4b7-df613c6d24c6.jpg'/>
 
 ## Pré-Requisitos
 
