@@ -45,8 +45,9 @@ function Input(props: any){
         <TouchableOpacity onPress={() => searchFilter(search)}>
          <Image source={require("../../assets/search.png")} style={styles.img}/>
         </TouchableOpacity>
-       </View>
-       <Table data={filteredData}/>
+      </View>
+
+      <Table data={filteredData}/>
       </>
         
     )

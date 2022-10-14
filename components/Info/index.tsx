@@ -8,30 +8,35 @@ function Info(props: any){
    const data = props.data
     return(
         <>
-        <View style={styles.info}>
-        <View style={styles.linha}>
-            <Text style={{fontWeight:'bold'}}>Cargo</Text>
-            <Text>{data.cargo}</Text>
-           
-        </View>
-        <View style={{flexDirection: 'row', alignItems: 'center'}}>
-            <View style={{flex: 1, height: 1, backgroundColor: 'rgba(0, 0, 0, 0.09)', marginTop: -10}} />
-        </View>
-       
-        <View  style={styles.linha}>
-            <Text style={{fontWeight:'bold'}}>Telefone</Text>
-            <Text>+55 {data.telefone.slice(0,2)} {data.telefone.slice(2,11)}</Text>
-        </View>
-        
-        <View style={{flexDirection: 'row', alignItems: 'center'}}>
-            <View style={{flex: 1, height: 1, backgroundColor: 'rgba(0, 0, 0, 0.09)', marginTop: -10}} />
-        </View>
-       
-        <View style={styles.linha}>
-            <Text style={{fontWeight:'bold'}}>Data de admissão</Text>
-            <Text>{data.data}</Text>
-        </View>
-        </View>
+            <View style={styles.info}>
+                <View style={styles.linha}>
+                    <Text style={{fontWeight:'bold'}}>Cargo</Text>
+                    <Text>{data.cargo}</Text>
+                </View>
+                
+                <View style={{height: 1, width: '100%', borderRadius: 1, borderWidth: 1, borderColor: 'rgba(0, 0, 0, 0.09)', borderStyle: 'dashed' }}>
+                    <View style={{ position: 'absolute', left: 0, bottom: 0, width: '100%', height: 1, backgroundColor: 'white', zIndex: 1 }} />
+                </View>
+            
+                <View style={styles.linha}>
+                    <Text style={{fontWeight:'bold'}}>Data de admissão</Text>
+                    <Text>{data.data}</Text>
+                </View>
+
+                <View style={{ height: 1, width: '100%', borderRadius: 1, borderWidth: 1, borderColor: 'rgba(0, 0, 0, 0.09)', borderStyle: 'dashed'}}>
+                    <View style={{ position: 'absolute', left: 0, bottom: 0, width: '100%', height: 1, backgroundColor: 'white', zIndex: 1 }} />
+                </View>
+
+                <View  style={styles.linha}>
+                    <Text style={{fontWeight:'bold'}}>Telefone</Text>
+                    <Text>+55 ({data.telefone.slice(0,2)}) {data.telefone.slice(2,11)}</Text>
+                </View>
+                
+                <View style={{ height: 1, width: '100%', borderRadius: 1, borderWidth: 1, borderColor: 'rgba(0, 0, 0, 0.09)', borderStyle: 'dashed' }}>
+                    <View style={{ position: 'absolute', left: 0, bottom: 0, width: '100%', height: 1, backgroundColor: 'white', zIndex: 1 }} />
+                </View>
+
+            </View>
         </>
     )
 }
@@ -39,11 +44,11 @@ function Info(props: any){
 const styles = StyleSheet.create({
     linha:{
       justifyContent: 'space-between',
-      margin:10,
-      flexDirection: 'row'
+      flexDirection: 'row',
+      paddingTop: 10
     },
     info:{
-      padding:10,
+      padding:20,
       width: '100%',
     }
   

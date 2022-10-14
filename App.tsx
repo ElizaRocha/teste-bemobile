@@ -10,20 +10,29 @@ import Input from './components/Input';
 
 
 export default function App (){
-
+  async function getFetchUsers() {
+    
+      await  fetch("http://localhost:3000/posts").then(res => console.log(res.json)).then(result => console.log(result)).catch(console.log);
+    
+  }
+  useEffect(()=>{
+    getFetchUsers()
+  })
   const database = require('./db.json')
   const data = database.posts
 
   return (
     <ScrollView style={styles.container}>
+
       <Header />
+    
       <View>
         <Text style={styles.title}>Funcionários</Text>
       </View>
 
       <Input data={data}/>
 
-      </ScrollView>
+    </ScrollView>
   );
   }
 

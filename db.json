@@ -5,29 +5,29 @@
       {   
 
       "id": 1, 
-      "name": "Eliza", 
-      "cargo": "Dev front End",
+      "name": "Raul E. Rocha", 
+      "cargo": "Dev Back End",
       "telefone": "31998522378",
       "data": "10-10-2022",
-      "foto": "require('./assets/user1.png')"
+      "foto": "https://s3-alpha-sig.figma.com/img/db8f/18a5/c4d1e2afb13b607d5cd1d11ac94e8c25?Expires=1666569600&Signature=JPfSTxzecuaGQWAVWN-RAhK7CH96CI3XTV4NF26FPtRVhSMGQABBdY18vRJy9wuYNX~cvCtqx8ga4xC3nJp~Ko8jqtvfRMaWdOs0uIxMG1pdWscZW2awYN4ZagZVJZQ5zlWksB9OiHOB8ailD3pXZRrjtFVtWmZHQCDNxMN8hzWWlBBxQMnRZpU2MfhYCTbDJEHDrPYjBUasJk1M4WXX7nBESYxPVT9pXzaON34s59qQ9gHn9dvOprgrpvDvy~nl3EPE9S3A203x5SDX-J3A8LI9S6qGhlzAIobBH8pRkHCmvCO~VitAnh~LHnqLf4hKoOiapAwZIUtw6Nwnpwpb7Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
       },
 
       { 
       "id": 2, 
-      "name": "Raul", 
-      "cargo": "Dev back End",
-      "telefone": "31998522478",
+      "name": "Eliza Rocha dos S. Neta", 
+      "cargo": "Dev Front End - Mobile",
+      "telefone": "3199822378",
       "data": "10-10-2021",
-      "foto": "require('./assets/user1.png')"
+      "foto": "https://s3-alpha-sig.figma.com/img/5490/e648/f588e7eb49e8b0a5b726beae69522e49?Expires=1666569600&Signature=bqVaJwzyp~1O3eLIXcYncI8pATwj~62eFXNnS2P0Y3aNEzpz-ORB~FNsz6XcEPdEBaflgmX9i2AgcSKxcZ75G-utNsCyMSgok-Pl8GzbLFuT0X-rDgrSBBZTiDuciZr4vUsv2jYG5q-HJRBVjoLBFYvvbuLgYbx12uS4zheYp2hVXyBahBm-kyQErswsa1QyC5jGGQhhqWQ7qJOhGY8geEXFsKfvgxzbHFWmf2zn~3BKIdeL~Kb79DzJ-90nTix8y5FdlZPleOjiAA6l4WMUdEAkI5FSbN~qm0~qlFs4mDsFOEcKAgRad-GGoqt2W9wFsFKGG9O86WnHwI-U~In8hA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
       },
 
       { 
       "id": 3, 
-      "name": "teste", 
-      "cargo": "Dev cdkncsk End",
+      "name": "Gabriela Amaral", 
+      "cargo": "Dev Front End - Web",
       "telefone": "31998522478",
       "data": "10-10-2021",
-      "foto": "require('./assets/user1.png')"
+      "foto": "https://s3-alpha-sig.figma.com/img/ac87/529e/90e36290137a8f0a6b57fd8ec7bbc889?Expires=1666569600&Signature=IK0UUgC~yJVi~rXjkxoX8j~Sl2J~6FdnwAt623dI5uCSgaNB4UxxenDXZsEXh0nOcjGcGWZ~g4PM2iOqE7wXm2yVVnTgSRS2I-XImmgGRZjSQjqpo8oWLsr-7V5CqtqNhoHtvTHo3p2WwNzGvAYgadfBQE0zAYNUbIPNYVrlwIAJDISm~lOpFWBh1sv3S~AO9~Cu6fjNJhL38N0cSEw6iSgT0OJ~jUYaJxY~8fVGUM2HMw6cL0AzbdqYp6YhAwa-EqtLCcYlp-4MPr68Z5FT5XCcpC-mODP9BmpX-vuBWl~Eey5HafZvcsxd--ypXY6GXDLq~IuOzd5At5v4pXRJ1A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA"
       }
 
     ],

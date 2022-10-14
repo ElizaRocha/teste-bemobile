@@ -2,7 +2,6 @@ import { useEffect, useState } from "react"
 import { Image, StyleSheet, Text, TextInput, TouchableOpacity, View } from "react-native"
 import Info from "../Info"
 
-
 function Table(props: any){
 
     const data = props.data
@@ -10,7 +9,6 @@ function Table(props: any){
     const [choice, setChoice] = useState(false)
     
     function handleClick(item: any) {
-
         for(let i=0; i < data.length; i++){
             if(data[i].id == item.id){
                 
@@ -19,7 +17,8 @@ function Table(props: any){
             }
             const novaData = data[i].data.replace(/-/g,"/")
             data[i].data = novaData
-        }         
+        }
+
     }
 
     return(
@@ -29,19 +28,23 @@ function Table(props: any){
               <Text style={styles.tituloText}>NOME</Text>
               <Image source={require('../../assets/ponto.png')}/>
           </View>
+
           <View style={styles.areaTabela}>
+
           {data.map((item:any)=>  (
               <>
+            
               <View style={styles.show}>
+                
                 <Image 
-                    source={require('../../assets/user1.png')}
+                    source={{uri:item.foto}}
                     style={
                     styles.foto
                     }
                 />
                 <Text> {item.name}</Text>
                 <TouchableOpacity onPress={() => handleClick(item)} key={item.id}>
-                  
+
                   {!choice || item.id!= id ?
                     <Image source={require("../../assets/setaBaixo.png")}/>
                     :
@@ -50,6 +53,7 @@ function Table(props: any){
                 
                 </TouchableOpacity>
               </View>
+
               {id == item.id  && choice &&
                 <Info data={item}/>
               }
@@ -111,6 +115,5 @@ const styles = StyleSheet.create({
      color:'white'
     }
   })
-
 
 export default Table
